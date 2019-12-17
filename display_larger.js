@@ -1,3 +1,5 @@
+//Write a JavaScript program that accept two integers and display the larger.
+
 function displayLarger(int1, int2){
     if(typeof(int1) !== typeof(int2) || typeof(int2) !== typeof(int1)){
         console.log("Can't compare.");
